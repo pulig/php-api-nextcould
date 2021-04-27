@@ -1,0 +1,26 @@
+{
+    "name": "pulig/php-api-nextcould",
+    "authors": [
+        {
+            "name": "Paulius Garliauskas",
+            "email": "paulius.garliauskas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pulig\\NextCloudAPI\\": "src"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2",
+        "vimeo/psalm": "^4.7",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-simplexml": "*",
+        "ext-libxml": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "nyholm/psr7": "^1.4"
+    }
+}
