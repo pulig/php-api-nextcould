@@ -1,5 +1,8 @@
 {
     "name": "pulig/php-api-nextcould",
+    "description": "PHP api for NextCloud",
+    "keywords": ["nextcould", "next cloud"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Paulius Garliauskas",
