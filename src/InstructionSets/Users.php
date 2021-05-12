@@ -11,6 +11,7 @@ use Pulig\NextCloudAPI\Requests\Users\DeleteUserRequest;
 use Pulig\NextCloudAPI\Requests\Users\FindUserRequest;
 use Pulig\NextCloudAPI\Requests\Users\GetUserRequest;
 use Pulig\NextCloudAPI\Requests\Users\SetUserStateRequest;
+use Pulig\NextCloudAPI\Requests\Users\EditUserRequest;
 use Pulig\NextCloudAPI\Responses\NextCloudResponseInterface;
 use Pulig\NextCloudAPI\Responses\ResponseInterface;
 
@@ -34,6 +35,17 @@ class Users
     public function create(array $properties): NextCloudResponseInterface
     {
         $request = new CreateUserRequest($this->httpClient, $properties);
+
+        return $request->send();
+    }
+
+    /**
+     * @throws InvalidResponse
+     * @throws ConnectionException
+     */
+    public function update(string $userId, array $properties): NextCloudResponseInterface
+    {
+        $request = new EditUserRequest($this->httpClient, $userId, $properties);
 
         return $request->send();
     }
