@@ -16,11 +16,11 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^5.2",
-        "vimeo/psalm": "^4.7",
-        "friendsofphp/php-cs-fixer": "^2.18"
+        "vimeo/psalm": "^5.20",
+        "friendsofphp/php-cs-fixer": "^v3.47.1"
     },
     "require": {
-        "php": "^7.4",
+        "php": "^8.2",
         "ext-simplexml": "*",
         "ext-libxml": "*",
         "guzzlehttp/guzzle": "^7.3",
