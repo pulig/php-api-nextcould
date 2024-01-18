@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI\Responses;
 
 interface NextCloudResponseInterface

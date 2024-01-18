@@ -1,17 +1,16 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI\Responses\Users;
 
 use Pulig\NextCloudAPI\Responses\XmlResponseParser;
 
 class EditUserResponse extends XmlResponseParser
 {
-    const STATUS_SUCCESS = 100;
+    public const STATUS_SUCCESS = 100;
 
-    const STATUS_USER_NOT_FOUND = 101;
+    public const STATUS_USER_NOT_FOUND = 101;
 
-    const STATUS_INVALID_PARAMS = 102;
+    public const STATUS_INVALID_PARAMS = 102;
 
 
     public function data(): ?array

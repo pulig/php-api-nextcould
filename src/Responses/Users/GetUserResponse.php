@@ -1,15 +1,14 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI\Responses\Users;
 
 use Pulig\NextCloudAPI\Responses\XmlResponseParser;
 
 class GetUserResponse extends XmlResponseParser
 {
-    const STATUS_SUCCESS = 100;
+    public const STATUS_SUCCESS = 100;
 
-    const STATUS_DOES_NOT_EXIST = 404;
+    public const STATUS_DOES_NOT_EXIST = 404;
 
     /**
      * User profile

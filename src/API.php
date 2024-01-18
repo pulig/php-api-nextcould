@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI;
 
 use Pulig\NextCloudAPI\InstructionSets\Users;

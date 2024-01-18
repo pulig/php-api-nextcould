@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI;
 
 use GuzzleHttp\Client;

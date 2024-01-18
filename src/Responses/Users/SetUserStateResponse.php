@@ -1,15 +1,14 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI\Responses\Users;
 
 use Pulig\NextCloudAPI\Responses\XmlResponseParser;
 
 class SetUserStateResponse extends XmlResponseParser
 {
-    const STATUS_SUCCESS = 100;
+    public const STATUS_SUCCESS = 100;
 
-    const STATUS_FAILURE = 101;
+    public const STATUS_FAILURE = 101;
 
 
     public function data(): ?array

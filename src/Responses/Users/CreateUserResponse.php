@@ -1,33 +1,32 @@
 <?php
 
-
 namespace Pulig\NextCloudAPI\Responses\Users;
 
 use Pulig\NextCloudAPI\Responses\XmlResponseParser;
 
 class CreateUserResponse extends XmlResponseParser
 {
-    const STATUS_SUCCESS = 100;
+    public const STATUS_SUCCESS = 100;
 
-    const STATUS_FAILURE = 101;
+    public const STATUS_FAILURE = 101;
 
-    const STATUS_ALREADY_EXISTS = 102;
+    public const STATUS_ALREADY_EXISTS = 102;
 
-    const STATUS_UNKNOWN = 103;
+    public const STATUS_UNKNOWN = 103;
 
-    const STATUS_GRP_NOT_FOUND = 104;
+    public const STATUS_GRP_NOT_FOUND = 104;
 
-    const STATUS_GRP_NO_PERMISSION = 105;
+    public const STATUS_GRP_NO_PERMISSION = 105;
 
-    const STATUS_NO_GRP = 106;
+    public const STATUS_NO_GRP = 106;
 
-    const STATUS_HAS_HINT = 107;
+    public const STATUS_HAS_HINT = 107;
 
-    const STATUS_NO_PWD_OR_MAIL = 108;
+    public const STATUS_NO_PWD_OR_MAIL = 108;
 
-    const STATUS_INVITE_FAILURE = 109;
+    public const STATUS_INVITE_FAILURE = 109;
 
-    const STATUS_INVALID_PARAMS = 998;
+    public const STATUS_INVALID_PARAMS = 998;
 
 
     public function data(): ?array
